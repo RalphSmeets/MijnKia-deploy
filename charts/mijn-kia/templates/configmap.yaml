@@ -1,0 +1,38 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mijnkia-ini
+data:
+  MijnKia.ini: |-
+    [Config]
+    # Get all upcomingAppointments & pastAppointments set by dealer
+    # Options are True or False
+    # When using InfluxDB as output set it to false
+    upcomingAppointments = False
+    pastAppointments = False
+
+    [MijnKia]
+    loginEmail={{ .Values.mijnKia.loginEmail }}
+    LoginPassword={{ .Values.mijnKia.loginPassword }}
+    preferredVehicleId={{ .Values.mijnKia.preferredVehicleId }}
+
+    [Influx]
+    InfluxDBServer=
+    InfluxDB=
+
+    [ABetterRoutePlanner]
+    #Login to ABRP website, setup live data, choose Torque Pro and find the field with the email ID, looks like: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+    abrp_token={{ .Values.aBetterRoutePlanner.token }}
+    car_model={{ .Values.aBetterRoutePlanner.carModel }}
+    #To provide the location of the car to ABRP specify YES below. Better to override it in the app and use your phone's location which updates far more frequently
+    ProvideLocationToABRP=NO
+    #Register an account on OpenWeatherMap and get API Key
+    OpenWeatherMapAPIKey=
+
+    [MQTT]
+    host=
+    # Default port is 1883
+    port=1883
+    username=
+    password=
+    mainTopic=MijnKia
