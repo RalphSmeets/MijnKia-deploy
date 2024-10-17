@@ -3,12 +3,12 @@ entries:
   mijn-kia:
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2024-10-17T10:56:28.002495+02:00"
+    created: "2024-10-17T11:05:22.740192+02:00"
     description: A Helm chart for Kubernetes
     digest: 3405741d73d37ef08a340f8a8406e6e78d8e0e64dc1049c1fba10fd229f7c17b
     name: mijn-kia
     type: application
     urls:
-    - https://github.com/RalphSmeets/application-deployments/mijn-kia-1.0.0.tgz
+    - https://github.com/RalphSmeets/application-deployments.git/mijn-kia-1.0.0.tgz
     version: 1.0.0
-generated: "2024-10-17T10:56:28.001752+02:00"
+generated: "2024-10-17T11:05:22.739474+02:00"
