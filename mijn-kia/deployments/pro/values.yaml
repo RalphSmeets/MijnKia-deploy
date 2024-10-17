@@ -2,7 +2,7 @@ image:
   pullPolicy: IfNotPresent
 
 imagePullSecrets:
-  - name: docker-ralphsmeets-creds
+  - name: regcred
 
 mijnKia:
   loginEmail: "<path:/k3s-provisioning/pro/applications/mijn-kia#mijnKiaLoginEmail>"
