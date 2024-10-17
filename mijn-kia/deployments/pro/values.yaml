@@ -5,10 +5,10 @@ imagePullSecrets:
   - name: regcred
 
 mijnKia:
-  loginEmail: "<path:/k3s-provisioning/pro/applications/mijn-kia#mijnKiaLoginEmail>"
-  loginPassword: "<path:/k3s-provisioning/pro/applications/mijn-kia#mijnKiaLoginPassword>"
-  preferredVehicleId: "<path:/k3s-provisioning/pro/applications/mijn-kia#mijnKiaPreferredVehicleId>"
+  loginEmail: <path:/k3s-provisioning/data/pro/applications/mijn-kia#mijnKiaLoginEmail>
+  loginPassword: <path:/k3s-provisioning/data/pro/applications/mijn-kia#mijnKiaLoginPassword>
+  preferredVehicleId: <path:/k3s-provisioning/data/pro/applications/mijn-kia#mijnKiaPreferredVehicleId>
 
 aBetterRoutePlanner:
-  token: "<path:/k3s-provisioning/pro/applications/mijn-kia#jAbrpToken>"
-  carModel: "<path:/k3s-provisioning/pro/applications/mijn-kia#AbrpCarModel>"
+  token: <path:/k3s-provisioning/data/pro/applications/mijn-kia#jAbrpToken>
+  carModel: <path:/k3s-provisioning/data/pro/applications/mijn-kia#AbrpCarModel>
