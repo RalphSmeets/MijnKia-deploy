@@ -1,6 +1,8 @@
 image:
   pullPolicy: IfNotPresent
 
+imagePullSecrets: argocd-docker-ralphsmeets-creds
+
 mijnKia:
   loginEmail: "<path:/k3s-provisioning/pro/applications/mijn-kia#mijnKiaLoginEmail>"
   loginPassword: "<path:/k3s-provisioning/pro/applications/mijn-kia#mijnKiaLoginPassword>"
