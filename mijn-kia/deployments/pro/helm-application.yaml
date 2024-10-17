@@ -1,4 +1,4 @@
 chart:
-  repo_url: https://github.com/RalphSmeets/application-deployments.git
+  repo_url: https://github.com/RalphSmeets/application-deployments
   name: mijn-kia
   version: 1.0.0
