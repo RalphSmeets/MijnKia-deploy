@@ -10,5 +10,5 @@ mijnKia:
   preferredVehicleId: <path:/k8s-provisioning/data/pro/applications/mijn-kia#mijnKiaPreferredVehicleId>
 
 aBetterRoutePlanner:
-  token: <path:/k8s-provisioning/data/pro/applications/mijn-kia#jAbrpToken>
+  token: <path:/k8s-provisioning/data/pro/applications/mijn-kia#AbrpToken>
   carModel: <path:/k8s-provisioning/data/pro/applications/mijn-kia#AbrpCarModel>
